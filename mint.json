@@ -85,6 +85,14 @@
         "api-reference/endpoint/create",
         "api-reference/endpoint/delete"
       ]
+    },
+    {
+      "group": "The Firewall",
+      "pages": [
+        "introduction",
+        "quickstart",
+        "development"
+      ]
     }
   ],
   "footerSocials": {
