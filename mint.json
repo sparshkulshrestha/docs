@@ -60,7 +60,9 @@
     {
       "group": "Documentation",
       "pages": [
-        "Documentation/Introduction"
+        "Documentation/Introduction",
+        "Documentation/gettingStarted",
+        "Documentation/support"
       ]
     },
     {
