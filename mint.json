@@ -29,6 +29,10 @@
     {
       "name": "API Reference",
       "url": "api-reference"
+    },
+    {
+      "name": "The Firewall",
+      "url": "the-firewall"
     }
   ],
   "anchors": [
