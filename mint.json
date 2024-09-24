@@ -31,16 +31,12 @@
       "url": "api-reference"
     },
     {
-      "name": "Documentation",
-      "url": "Documentation"
-    },
-    {
       "name": "Firewall Platform",
-      "url": "Firewall%20Platform"
+      "url": "Firewall-Platform"
     },
     {
       "name": "Firewall Secrets",
-      "url": "Firewall%20Secrets"
+      "url": "Firewall-Secrets"
     }
   ],
   "anchors": [
@@ -61,36 +57,20 @@
     }
   ],
   "navigation": [
-
-    {
-      "group": "The Firewall",
-      "pages": [
-        "Firewall/Getting-started",
-        "Firewall/Introduction",
-        "Firewall/Platform",
-        "Firewall/firewall-secrets"
-      ]
-    },
-    {
-      "group": "Documentation",
-      "pages": [
-        "Documentation/Introduction"
-      ]
-    },
     {
       "group": "Firewall Platform",
       "pages": [
-        "Firewall%20Platform/Introduction",
-        "Firewall%20Platform/Features",
-        "Firewall%20Platform/Use-Cases"
+        "Firewall-Platform/Introduction",
+        "Firewall-Platform/Features",
+        "Firewall-Platform/Use-Cases"
       ]
     },
     {
       "group": "Firewall Secrets",
       "pages": [
-        "Firewall%20Secrets/Introduction",
-        "Firewall%20Secrets/Features",
-        "Firewall%20Secrets/Use-Cases"
+        "Firewall-Secrets/Introduction",
+        "Firewall-Secrets/Features",
+        "Firewall-Secrets/Use-Cases"
       ]
     }
   ],
