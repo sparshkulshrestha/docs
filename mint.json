@@ -58,6 +58,12 @@
   ],
   "navigation": [
     {
+      "group": "Documentation",
+      "pages": [
+        "Documentation/Introduction"
+      ]
+    },
+    {
       "group": "Firewall Platform",
       "pages": [
         "Firewall-Platform/Introduction",
