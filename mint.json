@@ -31,8 +31,16 @@
       "url": "api-reference"
     },
     {
-      "name": "The Firewall",
-      "url": "Firewall"
+      "name": "Documentation",
+      "url": "Documentation"
+    },
+    {
+      "name": "Firewall Platform",
+      "url": "Documentation"
+    },
+    {
+      "name": "Firewall Secrets",
+      "url": "Documentation"
     }
   ],
   "anchors": [
