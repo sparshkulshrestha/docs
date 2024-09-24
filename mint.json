@@ -61,39 +61,7 @@
     }
   ],
   "navigation": [
-    {
-      "group": "Get Started",
-      "pages": [
-        "introduction",
-        "quickstart",
-        "development"
-      ]
-    },
-    {
-      "group": "Essentials",
-      "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
-      ]
-    },
-    {
-      "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
-      ]
-    },
+
     {
       "group": "The Firewall",
       "pages": [
@@ -101,6 +69,28 @@
         "Firewall/Introduction",
         "Firewall/Platform",
         "Firewall/firewall-secrets"
+      ]
+    },
+    {
+      "group": "Documentation",
+      "pages": [
+        "Documentation/Introduction"
+      ]
+    },
+    {
+      "group": "Firewall Platform",
+      "pages": [
+        "Firewall%20Platform/Introduction",
+        "Firewall%20Platform/Features",
+        "Firewall%20Platform/Use-Cases"
+      ]
+    },
+    {
+      "group": "Firewall Secrets",
+      "pages": [
+        "Firewall%20Secrets/Introduction",
+        "Firewall%20Secrets/Features",
+        "Firewall%20Secrets/Use-Cases"
       ]
     }
   ],
