@@ -89,9 +89,9 @@
     {
       "group": "The Firewall",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+        "Firewall/Getting-started",
+        "Firewall/Introduction",
+        "Firewall/Platform"
       ]
     }
   ],
