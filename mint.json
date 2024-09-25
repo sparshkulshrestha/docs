@@ -5,7 +5,7 @@
     "dark": "/logo/light.svg",
     "light": "/logo/dark.svg",
     "width": "600px", 
-    "height": "auto"
+    "height": "600px"
   },
   "favicon": "/favicon.svg",
   "colors": {
