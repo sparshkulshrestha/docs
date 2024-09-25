@@ -37,6 +37,10 @@
     {
       "name": "Firewall Secrets",
       "url": "Firewall-Secrets"
+    },
+    {
+      "name": "Firewall SCA",
+      "url": "Firewall-SCA"
     }
   ],
   "anchors": [
@@ -79,6 +83,12 @@
         "Firewall-Secrets/Introduction",
         "Firewall-Secrets/Features",
         "Firewall-Secrets/Use-Cases"
+      ]
+    },
+    {
+      "group": "Firewall SCA",
+      "pages": [
+        "Firewall-SCA/Introduction"
       ]
     }
   ],
