@@ -5,9 +5,6 @@
     "dark": "/logo/test_1.svg",
     "light": "/logo/test_1.svg"
   },
-  "styles": [
-    "/styles.css"  // Add the path to your custom CSS file
-  ],
   "favicon": "/favicon.svg",
   "colors": {
     "primary": "#223f9c",
