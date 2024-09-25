@@ -3,10 +3,11 @@
   "name": "Open Source Shift Left Framework",
   "logo": {
     "dark": "/logo/light.svg",
-    "light": "/logo/dark.svg",
-    "width": "1000px", 
-    "height": "1000px"
+    "light": "/logo/dark.svg"
   },
+  "styles": [
+    "/styles.css"  // Add the path to your custom CSS file
+  ],
   "favicon": "/favicon.svg",
   "colors": {
     "primary": "#223f9c",
