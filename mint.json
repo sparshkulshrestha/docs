@@ -23,7 +23,7 @@
   ],
   "topbarCtaButton": {
     "name": "Get Started",
-    "url": "https://thefirewall.mintlify.app/"
+    "url": "https://docs.thefirewall.org/"
   },
   "tabs": [
     {
@@ -47,7 +47,7 @@
     {
       "name": "Documentation",
       "icon": "book-open-cover",
-      "url": "https://thefirewall.mintlify.app"
+      "url": "https://docs.thefirewall.org"
     },
     {
       "name": "Community",
@@ -57,7 +57,7 @@
     {
       "name": "Blog",
       "icon": "newspaper",
-      "url": "https://thefirewall.org/blog"
+      "url": "https://blogs.thefirewall.org"
     }
   ],
   "navigation": [
@@ -94,7 +94,7 @@
   ],
   "footerSocials": {
     "x": "https://x.com/Tfirewall_",
-    "discord": "https://discord.gg/HXtjZZAr",
+    "discord": "https://discord.gg/jD2cEy2ugg",
     "linkedin": "https://www.linkedin.com/company/the-firewall-appsec/"
   }
 }
