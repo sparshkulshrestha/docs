@@ -82,7 +82,8 @@
       "pages": [
         "Firewall-Secrets/Introduction",
         "Firewall-Secrets/Features",
-        "Firewall-Secrets/Use-Cases"
+        "Firewall-Secrets/Use-Cases",
+        "Firewall-Secrets/Configuration"
       ]
     },
     {
