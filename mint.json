@@ -74,7 +74,7 @@
       "pages": [
         "Firewall-Platform/Introduction",
         "Firewall-Platform/Features",
-        "Firewall-Platform/Use-Cases"
+        "Firewall-Platform/Configuration/Version-Control"
       ]
     },
     {
@@ -82,14 +82,14 @@
       "pages": [
         "Firewall-Secrets/Introduction",
         "Firewall-Secrets/Features",
-        "Firewall-Secrets/Use-Cases",
         "Firewall-Secrets/Configuration"
       ]
     },
     {
       "group": "Firewall SCA",
       "pages": [
-        "Firewall-SCA/Introduction"
+        "Firewall-SCA/Introduction",
+        "Firewall-SCA/Configuration"
       ]
     }
   ],
