@@ -76,7 +76,11 @@
         "Firewall-Platform/Features",
         {
         "group": "Configuration",
-        "pages": ["Firewall-Platform/Configuration/Version-Control"]
+        "pages": [
+        "Firewall-Platform/Configuration/Version-Control",
+        "Firewall-Platform/Configuration/Alerts",
+        "Firewall-Platform/Configuration/User-Management"
+        ]
       }
       ]
     },
