@@ -1846,7 +1846,7 @@
     "/whitelist/": {
       "post": {
         "tags": [
-          "Whitelist secrets"
+          "Allowlist secrets"
         ],
         "summary": "Create Allowlist",
         "operationId": "create_whitelist_whitelist__post",
@@ -1890,7 +1890,7 @@
       },
       "get": {
         "tags": [
-          "Whitelist secrets"
+          "Allowlist secrets"
         ],
         "summary": "Fetch Allowlist",
         "operationId": "fetch_whitelist_whitelist__get",
@@ -2059,7 +2059,7 @@
     "/whitelist/{whitelist_id}": {
       "put": {
         "tags": [
-          "Whitelist secrets"
+          "Allowlist secrets"
         ],
         "summary": "Modify Allowlist",
         "operationId": "modify_whitelist_whitelist__whitelist_id__put",
