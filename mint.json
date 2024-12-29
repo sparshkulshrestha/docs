@@ -58,6 +58,12 @@
       "name": "Blog",
       "icon": "newspaper",
       "url": "https://blogs.thefirewall.org"
+    },
+    {
+      "name": "API Reference",
+      "openapi": "/openapi.json",
+      "url": "api-reference",
+      "icon": "square-terminal"
     }
   ],
   "navigation": [
