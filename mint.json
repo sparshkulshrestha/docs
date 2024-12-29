@@ -61,7 +61,7 @@
     },
     {
       "name": "API Reference",
-      "openapi": "/openapi.json",
+      "openapi": "api-reference/openapi.json",
       "url": "api-reference",
       "icon": "square-terminal"
     }
