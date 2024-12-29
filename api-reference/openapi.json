@@ -836,7 +836,7 @@
         "tags": [
           "Repositories"
         ],
-        "summary": "Fetch All Repos For Vc Endpoint",
+        "summary": "Fetch All Repos",
         "operationId": "fetch_all_repos_for_vc_endpoint_repo_fetch_all_post",
         "requestBody": {
           "content": {
@@ -882,7 +882,7 @@
         "tags": [
           "Repositories"
         ],
-        "summary": "Get Repos Controller",
+        "summary": "Get Repos",
         "operationId": "get_repos_controller_repo__get",
         "security": [
           {
@@ -1044,125 +1044,12 @@
         }
       }
     },
-    "/repo/filters": {
-      "get": {
-        "tags": [
-          "Repositories"
-        ],
-        "summary": "Get Filters",
-        "operationId": "get_filters_repo_filters_get",
-        "responses": {
-          "200": {
-            "description": "Successful Response",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "items": {
-                    "$ref": "#/components/schemas/FilterOption"
-                  },
-                  "type": "array",
-                  "title": "Response Get Filters Repo Filters Get"
-                }
-              }
-            }
-          }
-        },
-        "security": [
-          {
-            "HTTPBearer": []
-          }
-        ]
-      }
-    },
-    "/repo/filters/{filter_key}/values": {
-      "get": {
-        "tags": [
-          "Repositories"
-        ],
-        "summary": "Get Filter Values Endpoint",
-        "operationId": "get_filter_values_endpoint_repo_filters__filter_key__values_get",
-        "security": [
-          {
-            "HTTPBearer": []
-          }
-        ],
-        "parameters": [
-          {
-            "name": "filter_key",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string",
-              "title": "Filter Key"
-            }
-          },
-          {
-            "name": "search",
-            "in": "query",
-            "required": false,
-            "schema": {
-              "anyOf": [
-                {
-                  "type": "string"
-                },
-                {
-                  "type": "null"
-                }
-              ],
-              "title": "Search"
-            }
-          },
-          {
-            "name": "page",
-            "in": "query",
-            "required": false,
-            "schema": {
-              "type": "integer",
-              "default": 1,
-              "title": "Page"
-            }
-          },
-          {
-            "name": "limit",
-            "in": "query",
-            "required": false,
-            "schema": {
-              "type": "integer",
-              "default": 10,
-              "title": "Limit"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "Successful Response",
-            "content": {
-              "application/json": {
-                "schema": {
-
-                }
-              }
-            }
-          },
-          "422": {
-            "description": "Validation Error",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/HTTPValidationError"
-                }
-              }
-            }
-          }
-        }
-      }
-    },
     "/repo/scan": {
       "post": {
         "tags": [
           "Repositories"
         ],
-        "summary": "Scan Repo By Id Endpoint",
+        "summary": "Scan Repo By Id",
         "operationId": "scan_repo_by_id_endpoint_repo_scan_post",
         "requestBody": {
           "content": {
@@ -1208,7 +1095,7 @@
         "tags": [
           "Repositories"
         ],
-        "summary": "Scan All Repos For Vc Endpoint",
+        "summary": "Scan All Repos",
         "operationId": "scan_all_repos_for_vc_endpoint_repo_scan_all_post",
         "requestBody": {
           "content": {
@@ -1291,73 +1178,12 @@
         }
       }
     },
-    "/repo/{repo_id}/sca-branches": {
-      "put": {
-        "tags": [
-          "Repositories"
-        ],
-        "summary": "Update Sca Branches Endpoint",
-        "operationId": "update_sca_branches_endpoint_repo__repo_id__sca_branches_put",
-        "security": [
-          {
-            "HTTPBearer": []
-          }
-        ],
-        "parameters": [
-          {
-            "name": "repo_id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "title": "Repo Id"
-            }
-          }
-        ],
-        "requestBody": {
-          "required": true,
-          "content": {
-            "application/json": {
-              "schema": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                },
-                "title": "Sca Branches"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "Successful Response",
-            "content": {
-              "application/json": {
-                "schema": {
-
-                }
-              }
-            }
-          },
-          "422": {
-            "description": "Validation Error",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/HTTPValidationError"
-                }
-              }
-            }
-          }
-        }
-      }
-    },
     "/repo/{repo_id}/sbom": {
       "get": {
         "tags": [
           "Repositories"
         ],
-        "summary": "Generate Sbom For Repo Endpoint",
+        "summary": "Generate Sbom For Repo",
         "operationId": "generate_sbom_for_repo_endpoint_repo__repo_id__sbom_get",
         "security": [
           {
