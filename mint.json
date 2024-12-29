@@ -41,6 +41,11 @@
     {
       "name": "Firewall SCA",
       "url": "Firewall-SCA"
+    },
+    {
+      "name": "API Reference",
+      "openapi": "api-reference/openapi.json",
+      "url": "api-reference"
     }
   ],
   "anchors": [
@@ -58,12 +63,6 @@
       "name": "Blog",
       "icon": "newspaper",
       "url": "https://blogs.thefirewall.org"
-    },
-    {
-      "name": "API Reference",
-      "openapi": "api-reference/openapi.json",
-      "url": "api-reference",
-      "icon": "square-terminal"
     }
   ],
   "navigation": [
@@ -103,6 +102,22 @@
       "pages": [
         "Firewall-SCA/Introduction",
         "Firewall-SCA/Configuration"
+      ]
+    },
+    {
+      "group": "API Reference",
+      "pages": [
+        "api-reference/Introduction",
+        {
+        "group": "Users",
+        "pages": [
+        "api-reference/Users/get-users",
+        "api-reference/Users/get-user-id",
+        "api-reference/Users/create-user",
+        "api-reference/Users/delete-user-id",
+        "api-reference/Users/update-user-id"
+        ]
+      }
       ]
     }
   ],
