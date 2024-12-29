@@ -3646,7 +3646,7 @@
     "/vulnerabilities/scan/vcs/{vc_id}": {
       "post": {
         "tags": [
-          "Vulnerabilities"
+          "SCA"
         ],
         "summary": "Scan All Repos For Vc",
         "operationId": "scan_all_repos_for_vc_endpoint_vulnerabilities_scan_vcs__vc_id__post",
@@ -3693,7 +3693,7 @@
     "/vulnerabilities/scan/repo/{repo_id}": {
       "post": {
         "tags": [
-          "Vulnerabilities"
+          "SCA"
         ],
         "summary": "Scan Repo By Id",
         "operationId": "scan_repo_by_id_endpoint_vulnerabilities_scan_repo__repo_id__post",
