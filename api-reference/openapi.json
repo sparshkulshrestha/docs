@@ -3314,7 +3314,7 @@
     "/vulnerabilities/": {
       "get": {
         "tags": [
-          "Vulnerabilities"
+          "SCA"
         ],
         "summary": "List SCA CVEs",
         "operationId": "list_vulnerabilities_vulnerabilities__get",
