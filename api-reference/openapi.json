@@ -716,7 +716,7 @@
         "tags": [
           "Secrets"
         ],
-        "summary": "List Secrets",
+        "summary": "List Secret's Repos",
         "operationId": "list_secrets_secrets__secret_name_repos_get",
         "security": [
           {
@@ -789,7 +789,7 @@
         "tags": [
           "Secrets"
         ],
-        "summary": "Get Secret",
+        "summary": "Get Secret Details",
         "operationId": "get_secret_secrets__secret_id__get",
         "security": [
           {
