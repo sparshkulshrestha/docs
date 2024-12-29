@@ -261,7 +261,7 @@
     "/auth/login": {
       "post": {
         "tags": [
-          "Auth"
+          "Authentication"
         ],
         "summary": "Login",
         "operationId": "login_auth_login_post",
@@ -1280,7 +1280,7 @@
     "/pr/": {
       "get": {
         "tags": [
-          "Pull Request"
+          "Pull Requests"
         ],
         "summary": "List Pr",
         "operationId": "list_pr_pr__get",
@@ -1433,7 +1433,7 @@
     "/pr/scan/{pr_scan_id}": {
       "get": {
         "tags": [
-          "Pull Request"
+          "Pull Requests"
         ],
         "summary": "Get Pr Scan By Id Route",
         "operationId": "get_pr_scan_by_id_route_pr_scan__pr_scan_id__get",
@@ -1480,7 +1480,7 @@
     "/pr/scans/status/": {
       "get": {
         "tags": [
-          "Pull Request"
+          "Pull Requests"
         ],
         "summary": "Get Pr Scans By Status",
         "operationId": "get_pr_scans_by_status_pr_scans_status__get",
@@ -1846,7 +1846,7 @@
     "/whitelist/": {
       "post": {
         "tags": [
-          "Allowlist secrets"
+          "Allowlist"
         ],
         "summary": "Create Allowlist",
         "operationId": "create_whitelist_whitelist__post",
@@ -1890,7 +1890,7 @@
       },
       "get": {
         "tags": [
-          "Allowlist secrets"
+          "Allowlist"
         ],
         "summary": "Fetch Allowlist",
         "operationId": "fetch_whitelist_whitelist__get",
@@ -2059,7 +2059,7 @@
     "/whitelist/{whitelist_id}": {
       "put": {
         "tags": [
-          "Allowlist secrets"
+          "Allowlist"
         ],
         "summary": "Modify Allowlist",
         "operationId": "modify_whitelist_whitelist__whitelist_id__put",
@@ -2116,7 +2116,7 @@
     "/incident/": {
       "get": {
         "tags": [
-          "incidents"
+          "Incidents"
         ],
         "summary": "Fetch Incidents",
         "operationId": "fetch_incidents_incident__get",
@@ -2649,7 +2649,7 @@
     "/incident/filters": {
       "get": {
         "tags": [
-          "incidents"
+          "Incidents"
         ],
         "summary": "List Available Filters",
         "operationId": "list_available_filters_incident_filters_get",
@@ -2675,7 +2675,7 @@
     "/incident/{incident_id}/status": {
       "patch": {
         "tags": [
-          "incidents"
+          "Incidents"
         ],
         "summary": "Update Status",
         "operationId": "update_status_incident__incident_id__status_patch",
@@ -2730,7 +2730,7 @@
     "/incident/{incident_id}/severity": {
       "patch": {
         "tags": [
-          "incidents"
+          "Incidents"
         ],
         "summary": "Update Severity",
         "operationId": "update_status_incident__incident_id__severity_patch",
@@ -2785,7 +2785,7 @@
     "/incident/{incident_id}": {
       "get": {
         "tags": [
-          "incidents"
+          "Incidents"
         ],
         "summary": "Fetch Incident By Id",
         "operationId": "fetch_incident_by_id_incident__incident_id__get",
