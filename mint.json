@@ -107,17 +107,7 @@
     {
       "group": "API Reference",
       "pages": [
-        "api-reference/Introduction",
-        {
-        "group": "Users",
-        "pages": [
-        "api-reference/Users/get-users",
-        "api-reference/Users/get-user-id",
-        "api-reference/Users/create-user",
-        "api-reference/Users/delete-user-id",
-        "api-reference/Users/update-user-id"
-        ]
-      }
+        "api-reference/Introduction"
       ]
     }
   ],
