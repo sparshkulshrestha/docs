@@ -2824,52 +2824,6 @@
         }
       }
     },
-    "/incident/bulk-update/by-filters": {
-      "patch": {
-        "tags": [
-          "incidents"
-        ],
-        "summary": "Bulk Update By Filters",
-        "operationId": "bulk_update_by_filters_incident_bulk_update_by_filters_patch",
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/BulkIncidentUpdateByFilters"
-              }
-            }
-          },
-          "required": true
-        },
-        "responses": {
-          "200": {
-            "description": "Successful Response",
-            "content": {
-              "application/json": {
-                "schema": {
-
-                }
-              }
-            }
-          },
-          "422": {
-            "description": "Validation Error",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/HTTPValidationError"
-                }
-              }
-            }
-          }
-        },
-        "security": [
-          {
-            "HTTPBearer": []
-          }
-        ]
-      }
-    },
     "/groups/": {
       "post": {
         "tags": [
