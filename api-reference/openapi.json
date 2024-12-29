@@ -4,6 +4,12 @@
     "title": "FastAPI",
     "version": "0.1.0"
   },
+  "servers": [
+    {
+      "url": "https://example.com/api", 
+      "description": "Replace example.com with your app server" 
+    }
+  ],
   "paths": {
     "/users/": {
       "post": {
