@@ -3316,7 +3316,7 @@
         "tags": [
           "Vulnerabilities"
         ],
-        "summary": "List Vulnerabilities",
+        "summary": "List SCA CVEs",
         "operationId": "list_vulnerabilities_vulnerabilities__get",
         "security": [
           {
@@ -3643,128 +3643,12 @@
         }
       }
     },
-    "/vulnerabilities/filters": {
-      "get": {
-        "tags": [
-          "Vulnerabilities"
-        ],
-        "summary": "Get Filters",
-        "operationId": "get_filters_vulnerabilities_filters_get",
-        "responses": {
-          "200": {
-            "description": "Successful Response",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "title": "Response Get Filters Vulnerabilities Filters Get"
-                }
-              }
-            }
-          }
-        },
-        "security": [
-          {
-            "HTTPBearer": []
-          }
-        ]
-      }
-    },
-    "/vulnerabilities/filters/{filter_name}/values": {
-      "get": {
-        "tags": [
-          "Vulnerabilities"
-        ],
-        "summary": "Get Filter Values Endpoint",
-        "operationId": "get_filter_values_endpoint_vulnerabilities_filters__filter_name__values_get",
-        "security": [
-          {
-            "HTTPBearer": []
-          }
-        ],
-        "parameters": [
-          {
-            "name": "filter_name",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string",
-              "title": "Filter Name"
-            }
-          },
-          {
-            "name": "search",
-            "in": "query",
-            "required": false,
-            "schema": {
-              "anyOf": [
-                {
-                  "type": "string"
-                },
-                {
-                  "type": "null"
-                }
-              ],
-              "description": "Search for specific filter values",
-              "title": "Search"
-            },
-            "description": "Search for specific filter values"
-          },
-          {
-            "name": "page",
-            "in": "query",
-            "required": false,
-            "schema": {
-              "type": "integer",
-              "description": "Page number",
-              "default": 1,
-              "title": "Page"
-            },
-            "description": "Page number"
-          },
-          {
-            "name": "limit",
-            "in": "query",
-            "required": false,
-            "schema": {
-              "type": "integer",
-              "description": "Number of items per page",
-              "default": 10,
-              "title": "Limit"
-            },
-            "description": "Number of items per page"
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "Successful Response",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/FilterValuesResponse"
-                }
-              }
-            }
-          },
-          "422": {
-            "description": "Validation Error",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/HTTPValidationError"
-                }
-              }
-            }
-          }
-        }
-      }
-    },
     "/vulnerabilities/scan/vcs/{vc_id}": {
       "post": {
         "tags": [
           "Vulnerabilities"
         ],
-        "summary": "Scan All Repos For Vc Endpoint",
+        "summary": "Scan All Repos For Vc",
         "operationId": "scan_all_repos_for_vc_endpoint_vulnerabilities_scan_vcs__vc_id__post",
         "security": [
           {
@@ -3811,7 +3695,7 @@
         "tags": [
           "Vulnerabilities"
         ],
-        "summary": "Scan Repo By Id Endpoint",
+        "summary": "Scan Repo By Id",
         "operationId": "scan_repo_by_id_endpoint_vulnerabilities_scan_repo__repo_id__post",
         "security": [
           {
