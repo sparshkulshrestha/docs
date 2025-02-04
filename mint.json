@@ -84,7 +84,8 @@
         "pages": [
         "Firewall-Platform/Configuration/Version-Control",
         "Firewall-Platform/Configuration/Alerts",
-        "Firewall-Platform/Configuration/User-Management"
+        "Firewall-Platform/Configuration/User-Management",
+        "Firewall-Platform/Configuration/SSO"
         ]
       }
       ]
