@@ -106,13 +106,6 @@
         "Firewall-SCA/Configuration"
       ]
     },
-    {
-      "group": "API Reference",
-      "pages": [
-        "api-reference/Introduction"
-      ]
-    }
-  ],
   "footerSocials": {
     "x": "https://x.com/Tfirewall_",
     "discord": "https://discord.gg/jD2cEy2ugg",
