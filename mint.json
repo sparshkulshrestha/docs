@@ -102,6 +102,7 @@
       "group": "Firewall SCA",
       "pages": [
         "Firewall-SCA/Introduction",
+        "Firewall-SCA/Features",
         "Firewall-SCA/Configuration"
       ]
     },
